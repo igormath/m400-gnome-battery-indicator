@@ -1,0 +1,5 @@
+# Delux M400 Mouse & 2.4GHz Wireless Dongle (Shinetek / Semico)
+# Cable connection (DELUX-M400)
+KERNEL=="hidraw*", ATTRS{idVendor}=="1a2c", ATTRS{idProduct}=="9046", MODE="0666", TAG+="uaccess"
+# 2.4GHz USB Dongle
+KERNEL=="hidraw*", ATTRS{idVendor}=="1a2c", ATTRS{idProduct}=="8fff", MODE="0666", TAG+="uaccess"

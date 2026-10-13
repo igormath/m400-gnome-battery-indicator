@@ -1,0 +1,18 @@
+# Binários compilados
+delux-battery
+extension/delux-battery
+*.o
+
+# Ambientes virtuais e caches
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos temporários da engenharia reversa do driver oficial
+m400_driver.zip
+M400 Wireless Gaming Mouse/
+extracted_m400/
+app.js
+chunk-vendors.js
+cfg.json
+inspect_delux.py

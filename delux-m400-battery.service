@@ -1,0 +1,12 @@
+[Unit]
+Description=Delux M400 Mouse Battery Monitor & Low-Battery Notification
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/Coding/delux_test/delux_m400.py --watch 60 --notify 15
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

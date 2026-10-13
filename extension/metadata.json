@@ -1,0 +1,7 @@
+{
+    "name": "Delux M400 Battery Monitor",
+    "description": "Displays Delux M400 mouse battery level on the top panel",
+    "uuid": "delux-battery@igazev.local",
+    "shell-version": [ "45", "46", "47", "48", "49", "50" ],
+    "url": "https://github.com/igormath/delux-battery"
+}
